@@ -5,11 +5,12 @@ const Footer = () => {
     <footer className="footer p-10 bg-neutral text-neutral-content">
       <div>
         <span className="footer-title">Services</span>
-        <a className="link link-hover">Teeth Cleaning</a>
-        <a className="link link-hover">Cavity Protection</a>
-        <a className="link link-hover">Pediatric Dental</a>
-        <a className="link link-hover">Oral Surgery</a>
-        <a className="link link-hover">Teeth Orthodontics</a>
+        <a className="link link-hover">Medicine</a>
+        <a className="link link-hover">Gynaecology</a>
+        <a className="link link-hover">Orthopaedics</a>
+        <a className="link link-hover">Neurology</a>
+        <a className="link link-hover">Cardiology</a>
+        <a className="link link-hover">Baby Care</a>
       </div>
 
       <div>

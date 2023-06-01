@@ -4,6 +4,7 @@ import { toast } from 'react-toastify';
 const DeleteConfirmModal = ({deletingDoctor, refetch, setDeletingDoctor}) => {
     const {name, email} = deletingDoctor;
 
+    //delete doctor
     const handleDelete = () => {
         fetch(`http://localhost:5000/doctor/${email}`, {
             method: 'DELETE',

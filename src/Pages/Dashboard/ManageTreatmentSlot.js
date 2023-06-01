@@ -3,6 +3,7 @@ import { toast } from 'react-toastify';
 
 const ManageTreatmentSlot = ({ slot, index, refetch, setUpdateSlotStatus }) => {
     const { _id, name, price, slots, available } = slot;
+    //update treatment status true false
     return (
         <div>
             <tr>

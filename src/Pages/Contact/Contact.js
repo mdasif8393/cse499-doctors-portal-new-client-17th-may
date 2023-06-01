@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 const Contact = () => {
     const form = useRef();
 
+    // US email js to send auto email
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('gmail', 'template_6l3nqc6', form.current, 'user_zZF2qj887EBUVcRUxWz9A')
