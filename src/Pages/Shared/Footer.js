@@ -10,7 +10,8 @@ const Footer = () => {
         <a className="link link-hover">Orthopaedics</a>
         <a className="link link-hover">Neurology</a>
         <a className="link link-hover">Cardiology</a>
-        <a className="link link-hover">Baby Care</a>
+        <a className="link link-hover">Baby Carenpm start
+        </a>
       </div>
 
       <div>
